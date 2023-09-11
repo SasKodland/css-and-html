@@ -1,0 +1,29 @@
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 15px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #f0f0f0; /* Warna latar belakang laman web */
+    color: #333333; /* Warna teks */ 
+}
+h1 {
+    color: #6552b3; /* Warna tajuk (header)*/
+    font-size: 25px; /* Ukuran font tajuk (header) */
+    font-family: Arial, Helvetica, sans-serif, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+
+@keyframes color-change {
+    0% {
+      color: #323270;
+    }
+  
+    50% {
+      color: rgb(166, 55, 55);
+    }
+  
+    100% {
+      color: rgb(64, 64, 145);
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
